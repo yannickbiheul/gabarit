@@ -171,6 +171,12 @@ nav>a {
     align-items: center;
 }
 
+#accueil {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 50%), url(../images/odet1.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
 .titreAccueil {
     color: #fff;
     font-size: 4em;
