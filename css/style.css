@@ -29,6 +29,7 @@ a {
     cursor: pointer;
     transition-duration: 0.5s;
     z-index: 3;
+    display: none;
 }
 
 .span1 {
@@ -99,11 +100,24 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 60px;
+    height: 70px;
     border: 1px solid #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    z-index: 3;
+}
+
+.titreHeader {
+    width: 25%;
+    height: 95%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.titreHeader>a {
+    margin-left: 20px;
 }
 
 nav {
@@ -111,9 +125,20 @@ nav {
     justify-content: center;
     align-items: center;
     border: 1px solid #fff;
+    width: 50%;
+    height: 95%;
 }
 nav>a {
     margin: 0 10px 0 10px;
+}
+
+.asideHeader {
+    width: 25%;
+    height: 95%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .general {
@@ -201,4 +226,18 @@ nav>a {
     height: 85%;
     font-size: 1em;
     box-shadow: 4px 4px 4px #000;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1200px) {
+    .boutonBurger {
+        display: flex;
+    }
+
+    header {
+        display: none;
+    }
 }
