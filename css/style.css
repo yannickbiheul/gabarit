@@ -27,6 +27,7 @@ a {
     /* border: 1px solid #fff; */
     cursor: pointer;
     transition-duration: 0.5s;
+    z-index: 3;
 }
 
 .span1 {
@@ -35,6 +36,7 @@ a {
     height: 4px;
     background-color: #fff;
     top: 8px;
+    transition-duration: 0.5s;
 }
 .span1Open {
     top: 16px;
@@ -47,6 +49,7 @@ a {
     height: 4px;
     background-color: #fff;
     top: 18px;
+    transition-duration: 0.5s;
 }
 .span2Open {
     display: none;
@@ -58,6 +61,7 @@ a {
     height: 4px;
     background-color: #fff;
     top: 28px;
+    transition-duration: 0.5s;
 }
 .span3Open {
     top: 16px;
@@ -76,6 +80,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 .menuBurger>a {
     margin: 20px 0 20px 0;
@@ -93,4 +98,8 @@ main {
     height: 100vh;
     width: 100%;
     background: radial-gradient(#000, var(--black));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
