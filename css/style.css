@@ -1,3 +1,5 @@
+                                                            /* GENERAL */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -18,6 +20,8 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+                                                            /* MENU BURGER */
 
 .boutonBurger {
     position: fixed;
@@ -92,39 +96,47 @@ a {
     left: 0;
 }
 
+                                                            /* MAIN */
+
 main {
     min-height: 100vh;
 }
+
+                                        /* HEADER */
 
 header {
     position: fixed;
     top: 0;
     width: 100%;
     height: 70px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 3;
+    background: radial-gradient(#000, var(--black));
 }
 
 .titreHeader {
     width: 25%;
     height: 95%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 .titreHeader>a {
     margin-left: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* border: 1px solid #fff; */
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     width: 50%;
     height: 95%;
 }
@@ -135,7 +147,7 @@ nav>a {
 .asideHeader {
     width: 25%;
     height: 95%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -151,8 +163,10 @@ nav>a {
     align-items: center;
 }
 
+                                        /* SECTIONS */
+
 .boxCol {
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     width: 75%;
     height: 75%;
     display: flex;
@@ -163,13 +177,15 @@ nav>a {
 }
 
 .boxRow {
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     width: 75%;
     height: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+                                        /* ACCUEIL */
 
 #accueil {
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 50%), url(../images/odet1.JPG);
@@ -183,13 +199,13 @@ nav>a {
     letter-spacing: 2px;
     position: absolute;
     top: 20vh;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     margin: 0 auto 0 auto;
 }
 
 .phraseAccueil {
     color: #fff;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     position: absolute;
     margin: 0 auto 0 auto;
     top: 32vh;
@@ -236,7 +252,7 @@ nav>a {
 
 
 
-/* RESPONSIVE */
+                                        /* RESPONSIVE */
 
 @media screen and (max-width: 1200px) {
     .boutonBurger {
