@@ -179,12 +179,26 @@ nav>a {
 }
 
 .boxRow {
-    /* border: 1px solid #fff; */
-    width: 75%;
+    border: 1px solid #fff;
+    width: 85%;
     height: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.boxRow1 {
+    border: 1px solid #fff;
+    width: 45%;
+    height: 95%;
+    margin: 0 20px 0 0;
+}
+
+.boxRow2 {
+    border: 1px solid #fff;
+    width: 45%;
+    height: 95%;
+    margin: 0 0 0 20px;
 }
 
                                         /* ACCUEIL */
@@ -252,7 +266,7 @@ nav>a {
     box-shadow: 4px 4px 4px #000;
 }
 
-/* FOOTER */
+                                        /* FOOTER */
 
 footer {
     width: 100%;
@@ -306,5 +320,23 @@ footer {
 
     header {
         display: none;
+    }
+
+    .boxRow {
+        width: 95%;
+        height: 70%;
+        flex-direction: column;
+    }
+
+    .boxRow1 {
+        width: 95%;
+        height: 45%;
+        margin: 0 0 10px 0;
+    }
+
+    .boxRow2 {
+        width: 95%;
+        height: 45%;
+        margin: 10px 0 0 0;
     }
 }
